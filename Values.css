@@ -1,0 +1,29 @@
+.values {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+  }
+  
+  .value-card {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .value-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .value-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .value-card .highlight {
+    font-weight: bold;
+  }
+  
+  .value-card p {
+    color: #6c757d;
+  }
+  

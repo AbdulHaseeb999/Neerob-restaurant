@@ -1,0 +1,326 @@
+/* AboutPlantFood.css */
+
+.about-plant-food {
+    background-color: #f4f8ff;
+    padding: 50px;
+  }
+  
+  .about-us {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .about-us h2 {
+    font-size: 50px;
+    color: #2f6ef0;
+  }
+  
+  .about-us p {
+    color: #2f6ef0;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content img {
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .plant-food-info {
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .plant-food-info h3 {
+    font-size: 40px;
+    color: #2f6ef0;
+  }
+  
+  .italic-text {
+    font-style: italic;
+  }
+  
+  .belief {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #2f6ef0;
+    text-align: center;
+  }
+
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  /* Place the container to the left */
+.left {
+    right: 0;
+  }
+  
+  /* Place the container to the right */
+.right {
+    left: 50%;
+  }
+
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline-date {
+    color: #2f6ef0;
+    font-size: 14px;
+    width: 100px;
+    text-align: top;
+    position: absolute;
+    left: -99px;
+  }
+  
+  .timeline-content {
+    border-left: 2px solid #2f6ef0;
+    padding-left: 20px;
+    max-width: 500px;
+  }
+  
+  .timeline-content h3 {
+    color: #2f6ef0;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-item:not(:last-child):after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #2f6ef0;
+    border-radius: 50%;
+    margin-top: -5px;
+  }
+  
+  .our-siders {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .our-siders h2 {
+    font-size: 36px;
+    color: #2f6ef0;
+    margin-bottom: 30px;
+  }
+  
+  .sider-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sider-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .sider-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .sider-card h3 {
+    font-size: 20px;
+    color: #2f6ef0;
+    margin: 10px 0;
+  }
+  
+  .event-banner {
+    background-image: url('https://your-image-url.com'); /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 128, 0.7); /* Blue overlay */
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.event-details {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.event-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-location {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.event-address {
+    margin-bottom: 20px;
+}
+
+.event-time {
+    background-color: white;
+    color: #3b6dc7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+  .faq {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 36px;
+    color: #2f6ef0;
+    margin-bottom: 30px;
+  }
+  
+  .faq-item {
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: left;
+  }
+  
+  .faq-item h3 {
+    font-size: 24px;
+    color: #2f6ef0;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    color: #4a4a4a;
+  }
+  
+  .faq-question span {
+    font-size: 18px;
+    color: #3b6dc7;
+}
+
+.faq-toggle {
+    font-size: 18px;
+    color: #3b6dc7;
+    transition: transform 0.3s ease;
+    padding-left: 40px;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg);
+}
+
+/* Gone Say Hello Section */
+
+.footer-container {
+    background-color: #2f6ef0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.footer-top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensures vertical alignment */
+    margin-bottom: 40px;
+}
+
+.footer-top .left-section h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.footer-top .center-section {
+    text-align: center;
+}
+
+.footer-menu-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: up;
+}
+
+.footer-menu-links li {
+    display: inline-block;
+}
+
+.footer-top .right-section {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+/* src/components/About.css */
+
+.about {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .about h1 {
+    color: #2f6ef0;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
